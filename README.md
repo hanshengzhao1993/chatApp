@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This chat application took me 3 hours to make. 
 
-Things you may want to cover:
+To implement the left and right page, all I did was move some of the item to the right.
 
-* Ruby version
+To implement the sending of the messages I used Action Cable in rails.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To implement the count of how many messages send out. I just kept a global tracker to keep track of how many times messages were being send.
