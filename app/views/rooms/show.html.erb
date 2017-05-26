@@ -9,7 +9,7 @@
     <h1 >Chat Room</h1>
 
     <div id="right_page">
-      <h1> <%= $clicks %> Request</h1>
+      <h1> Requests</h1>
       <div id="messages">
         <%= render @messages %>
       </div>
@@ -18,7 +18,7 @@
     <form>
       <label>Type something</label><br>
       <input id="input_message" type="text" data-behavior="room_speaker">
-      <input id="send_message" type="submit" onClick="window.location.reload()" <% $clicks+=1 %> >
+      <input id="send_message" type="submit" onClick="window.location.reload()"> 
     </form>
 
   </body>

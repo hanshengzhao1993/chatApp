@@ -1,6 +1,8 @@
 # README
 
-This chat application took me 3 hours to make. 
+This chat application took me 3 hours to make. Added half an hour to find the bug.
+
+please use this URL http://localhost:3000/rooms/show?
 
 To implement the left and right page, all I did was move some of the item to the right.
 
